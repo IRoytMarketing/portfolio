@@ -1,0 +1,18 @@
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 12px;
+  background: #222;
+}
+::-webkit-scrollbar-thumb {
+  background: #43cea2;
+  border-radius: 8px;
+  border: 2px solid #222;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #185a9d;
+}
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #43cea2 #222;
+}
