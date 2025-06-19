@@ -178,3 +178,12 @@ details summary::before {
 details[open] summary::before {
   transform: rotate(90deg);
 }
+
+details {
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 1200px; /* Limit overall section width */
+}
