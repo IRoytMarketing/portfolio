@@ -163,5 +163,23 @@ html {
 }
 
 
-
-
+.expandable-toggle {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.3em;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.2em;
+}
+.expandable-toggle .triangle {
+  display: inline-block;
+  margin-right: 0.5em;
+  transition: transform 0.2s;
+}
+.expandable-content {
+  padding-left: 1.5em;
+  margin-bottom: 1.5em;
+}
