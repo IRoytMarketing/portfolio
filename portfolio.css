@@ -155,13 +155,13 @@ details {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-/* Styling for Paragraphs inside About Section */
+/* Styling for Paragraphs inside About Section 
 about p {
-  text-align: justify; /* Justify text inside paragraphs */
-  max-width: 800px; /* Restrict width of the text content */
-  line-height: 1.6; /* Improve readability */
-  margin: 1rem 0; /* Add spacing between paragraphs */
-}
+  text-align: justify; /* Justify text inside paragraphs 
+  max-width: 800px; /* Restrict width of the text content 
+  line-height: 1.6; /* Improve readability 
+  margin: 1rem 0; /* Add spacing between paragraphs 
+} */
 
 /* Expandable bits*/
 details summary {
