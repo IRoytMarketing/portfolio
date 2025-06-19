@@ -88,6 +88,10 @@ section {
   margin: 1rem 0; /* Add spacing between paragraphs */
 }
 
+h1 {
+  color: #43cea2
+}
+
 h2, h3 {
   color: #333;
 }
