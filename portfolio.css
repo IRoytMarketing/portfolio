@@ -162,24 +162,19 @@ html {
   scrollbar-color: #ff7e5f #222; /* thumb color, track color */
 }
 
-
-.expandable-toggle {
-  background: none;
-  border: none;
-  outline: none;
-  font-size: 1.3em;
-  font-weight: bold;
+/* Expandable bits*/
+details summary {
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  margin-bottom: 0.2em;
+  list-style: none;
+  position: relative;
+  padding-left: 1.2em;
 }
-.expandable-toggle .triangle {
-  display: inline-block;
-  margin-right: 0.5em;
+details summary::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
   transition: transform 0.2s;
 }
-.expandable-content {
-  padding-left: 1.5em;
-  margin-bottom: 1.5em;
+details[open] summary::before {
+  transform: rotate(90deg);
 }
